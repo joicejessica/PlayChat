@@ -26,5 +26,12 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
 
+        findViewById(R.id.bPlay).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(HomeActivity.this, GameActivity.class));
+            }
+        });
+
     }
 }
