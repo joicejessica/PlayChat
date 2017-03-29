@@ -212,6 +212,8 @@ public class GameActivity extends AppCompatActivity {
             Toast.makeText(GameActivity.this, "Pemain X Menang !!", Toast.LENGTH_LONG).show();
             end = true;
         }
+
+
         if (a.equals(g) && a.equals(d) && a.equals("O")) {
             Toast.makeText(GameActivity.this, "Pemain X Menang !!", Toast.LENGTH_LONG).show();
             end = true;
