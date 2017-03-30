@@ -175,63 +175,69 @@ public class GameActivity extends AppCompatActivity {
 
         Boolean end = false;
 
-        if (a.equals(b) && a.equals(c) && a.equals("X")) {
+        if (a.equals("X") && b.equals("X") && c.equals("X")) {
             Toast.makeText(GameActivity.this, "Pemain X Menang !!", Toast.LENGTH_LONG).show();
             end = true;
         }
-        if (a.equals(e) && a.equals(i) && a.equals("X")) {
+        if (e.equals("X") && i.equals("X") && a.equals("X")) {
             Toast.makeText(GameActivity.this, "Pemain X Menang !!", Toast.LENGTH_LONG).show();
             end = true;
         }
-        if (a.equals(g) && a.equals(d) && a.equals("X")) {
+        if (g.equals("X") && d.equals("X") && a.equals("X")) {
             Toast.makeText(GameActivity.this, "Pemain X Menang !!", Toast.LENGTH_LONG).show();
             end = true;
         }
-        if (a.equals(e) && a.equals(h) && a.equals("X")) {
+        if (g.equals("X") && h.equals("X") && i.equals("X")) {
             Toast.makeText(GameActivity.this, "Pemain X Menang !!", Toast.LENGTH_LONG).show();
             end = true;
         }
-        if (a.equals(f) && a.equals(i) && a.equals("X")) {
+        if (f.equals("X") && i.equals("X") && c.equals("X")) {
             Toast.makeText(GameActivity.this, "Pemain X Menang !!", Toast.LENGTH_LONG).show();
             end = true;
         }
-        if (a.equals(e) && a.equals(f) && a.equals("X")) {
+        if (c.equals("X") && e.equals("X") && g.equals("X")) {
             Toast.makeText(GameActivity.this, "Pemain X Menang !!", Toast.LENGTH_LONG).show();
             end = true;
         }
-        if (a.equals(h) && a.equals(i) && a.equals("X")) {
+        if (b.equals("X") && e.equals("X") && h.equals("X")) {
             Toast.makeText(GameActivity.this, "Pemain X Menang !!", Toast.LENGTH_LONG).show();
             end = true;
         }
-
-        if (a.equals(b) && a.equals(c) && a.equals("O")) {
-            Toast.makeText(GameActivity.this, "Pemain X Menang !!", Toast.LENGTH_LONG).show();
-            end = true;
-        }
-        if (a.equals(e) && a.equals(i) && a.equals("O")) {
+        if (d.equals("X") && e.equals("X") && f.equals("X")) {
             Toast.makeText(GameActivity.this, "Pemain X Menang !!", Toast.LENGTH_LONG).show();
             end = true;
         }
 
-
-        if (a.equals(g) && a.equals(d) && a.equals("O")) {
+        if (a.equals("O") && b.equals("O") && c.equals("O")) {
             Toast.makeText(GameActivity.this, "Pemain X Menang !!", Toast.LENGTH_LONG).show();
             end = true;
         }
-        if (a.equals(e) && a.equals(h) && a.equals("O")) {
+        if (e.equals("O") && i.equals("O") && a.equals("O")) {
+            Toast.makeText(GameActivity.this, "Pemain O Menang !!", Toast.LENGTH_LONG).show();
+            end = true;
+        }
+        if (g.equals("O") && d.equals("O") && a.equals("O")) {
             Toast.makeText(GameActivity.this, "Pemain X Menang !!", Toast.LENGTH_LONG).show();
             end = true;
         }
-        if (a.equals(f) && a.equals(i) && a.equals("O")) {
-            Toast.makeText(GameActivity.this, "Pemain X Menang !!", Toast.LENGTH_LONG).show();
+        if (g.equals("O") && h.equals("O") && i.equals("O")) {
+            Toast.makeText(GameActivity.this, "Pemain O Menang !!", Toast.LENGTH_LONG).show();
             end = true;
         }
-        if (a.equals(e) && a.equals(f) && a.equals("O")) {
-            Toast.makeText(GameActivity.this, "Pemain X Menang !!", Toast.LENGTH_LONG).show();
+        if (f.equals("O") && i.equals("O") && c.equals("O")) {
+            Toast.makeText(GameActivity.this, "Pemain O Menang !!", Toast.LENGTH_LONG).show();
             end = true;
         }
-        if (a.equals(h) && a.equals(i) && a.equals("O")) {
-            Toast.makeText(GameActivity.this, "Pemain X Menang !!", Toast.LENGTH_LONG).show();
+        if (c.equals("O") && e.equals("O") && g.equals("O")) {
+            Toast.makeText(GameActivity.this, "Pemain O Menang !!", Toast.LENGTH_LONG).show();
+            end = true;
+        }
+        if (b.equals("O") && e.equals("O") && h.equals("O")) {
+            Toast.makeText(GameActivity.this, "Pemain O Menang !!", Toast.LENGTH_LONG).show();
+            end = true;
+        }
+        if (d.equals("O") && e.equals("O") && f.equals("O")) {
+            Toast.makeText(GameActivity.this, "Pemain O Menang !!", Toast.LENGTH_LONG).show();
             end = true;
         }
 

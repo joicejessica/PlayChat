@@ -11,8 +11,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
+        android:layout_alignStart="@+id/bAboutUs"
         android:layout_marginTop="127dp"
+        android:background="@color/lightgreen"
         android:text="Chat" />
 
     <Button
@@ -22,6 +23,7 @@
         android:layout_alignStart="@+id/bChat"
         android:layout_below="@+id/bChat"
         android:layout_marginTop="29dp"
+        android:background="@color/lightgreen"
         android:text="Play" />
 
     <Button
@@ -31,6 +33,7 @@
         android:layout_below="@+id/bPlay"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="29dp"
+        android:background="@color/lightgreen"
         android:text="About Us" />
 
 </RelativeLayout>
