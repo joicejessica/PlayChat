@@ -12,6 +12,7 @@ public class AboutUs extends AppCompatActivity {
         setContentView(R.layout.activity_about_us);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        this.setTitle("About Us");
 
     }
 
