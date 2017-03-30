@@ -31,6 +31,6 @@
         android:layout_below="@+id/bPlay"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="49dp"
-        android:background="@drawable/aboutUS" />
+        android:background="@drawable/aboutus" />
 
 </RelativeLayout>
