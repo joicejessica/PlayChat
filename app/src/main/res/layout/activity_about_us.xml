@@ -3,12 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/us"
     android:orientation="horizontal"
     tools:context="id.sch.smktelkom_mlg.project2.xirpl609101415.playchat.AboutUs">
 
-        <ImageView
-            android:id="@+id/imageaboutus"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@drawable/us" />
+        <!--<ImageView-->
+        <!--android:id="@+id/imageaboutus"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:src="@drawable/us" />-->
 </LinearLayout>
