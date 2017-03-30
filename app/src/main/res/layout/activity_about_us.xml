@@ -30,37 +30,11 @@
             android:layout_width="match_parent"
             android:layout_height="10dp" />
 
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:text="Dhea Armalivia Airizah" />
-
-        <TextView
-            android:id="@+id/textView5"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:text="Dini Eka Ristanti" />
-
-        <TextView
-            android:id="@+id/textView6"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:text="Jayana Citra Agung " />
-
-        <TextView
-            android:id="@+id/textView7"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:text="Joice Jessica" />
+        <ImageView
+            android:id="@+id/imageaboutus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/audone" />
 
         <TextView
             android:layout_width="match_parent"
