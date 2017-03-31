@@ -11,6 +11,7 @@ public class HomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+        this.setTitle("TicChatToe");
 
         findViewById(R.id.bChat).setOnClickListener(new View.OnClickListener() {
             @Override
